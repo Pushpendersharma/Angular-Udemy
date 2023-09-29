@@ -5,7 +5,6 @@
       <label for="username" class="form">UserName</label>
       <input type="text" class="form-control" [(ngModel)]="username" />
       <p>{{username}}</p>
-      
     </div>
   </div>
   <button type="button" class="btn btn-primary" [disabled]="isUserNameEmpty" (click)="onResetUserName()">Reset UserName</button>
